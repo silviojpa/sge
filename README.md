@@ -17,6 +17,11 @@ Cração de uma venv para isolar os pacotes dependentes do python nativo da máq
 python -m venv venv
 ```
 
+Ativação da venv após a instalção do ambiente virtual no repositório
+```bash
+.\venv\Script\activate
+```
+
 ## Instalação das Dependências
 
 Com o ambiente virtual ativado, instale as dependências do projeto usando o comando:
