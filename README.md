@@ -37,6 +37,13 @@ Após instalar as dependências, aplique as migrations no banco de dados com o c
 python manage.py migrate
 ```
 
+## Criar um super user
+
+Precisa criar após a migração do DB
+```bash
+python manage.py createsuperuser
+```
+
 Agora o projeto jã pode ser inicializado com o comando:
 ```bash
 python manage.py runserver
