@@ -10,6 +10,12 @@ Certifique-se de que você tenha os seguintes requisitos instalados em seu siste
 - Django (instalado automaticamente ao seguir as instruções abaixo)
 - Outras dependências listadas no arquivo `requirements.txt`
 
+## Criação da VENV
+
+Cração de uma venv para isolar os pacotes dependentes do python nativo da máquina
+```bash
+python -m venv venv
+```
 
 ## Instalação das Dependências
 
